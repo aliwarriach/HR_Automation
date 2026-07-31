@@ -1,0 +1,300 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Colors — Kinetic Enterprise (token names only; values set per-theme below) */
+  --color-surface: var(--kc-surface);
+  --color-surface-dim: var(--kc-surface-dim);
+  --color-surface-bright: var(--kc-surface-bright);
+  --color-surface-container-lowest: var(--kc-surface-container-lowest);
+  --color-surface-container-low: var(--kc-surface-container-low);
+  --color-surface-container: var(--kc-surface-container);
+  --color-surface-container-high: var(--kc-surface-container-high);
+  --color-surface-container-highest: var(--kc-surface-container-highest);
+  --color-surface-variant: var(--kc-surface-variant);
+  --color-on-surface: var(--kc-on-surface);
+  --color-on-surface-variant: var(--kc-on-surface-variant);
+  --color-inverse-surface: var(--kc-inverse-surface);
+  --color-inverse-on-surface: var(--kc-inverse-on-surface);
+  --color-outline: var(--kc-outline);
+  --color-outline-variant: var(--kc-outline-variant);
+  --color-surface-tint: var(--kc-surface-tint);
+  --color-background: var(--kc-background);
+  --color-on-background: var(--kc-on-background);
+
+  --color-primary: var(--kc-primary);
+  --color-primary-hover: var(--kc-primary-hover);
+  --color-on-primary: var(--kc-on-primary);
+  --color-primary-container: var(--kc-primary-container);
+  --color-on-primary-container: var(--kc-on-primary-container);
+  --color-inverse-primary: var(--kc-inverse-primary);
+  --color-primary-fixed: var(--kc-primary-fixed);
+  --color-primary-fixed-dim: var(--kc-primary-fixed-dim);
+  --color-on-primary-fixed: var(--kc-on-primary-fixed);
+  --color-on-primary-fixed-variant: var(--kc-on-primary-fixed-variant);
+
+  --color-secondary: var(--kc-secondary);
+  --color-on-secondary: var(--kc-on-secondary);
+  --color-secondary-container: var(--kc-secondary-container);
+  --color-on-secondary-container: var(--kc-on-secondary-container);
+  --color-secondary-fixed: var(--kc-secondary-fixed);
+  --color-secondary-fixed-dim: var(--kc-secondary-fixed-dim);
+  --color-on-secondary-fixed: var(--kc-on-secondary-fixed);
+  --color-on-secondary-fixed-variant: var(--kc-on-secondary-fixed-variant);
+
+  --color-tertiary: var(--kc-tertiary);
+  --color-on-tertiary: var(--kc-on-tertiary);
+  --color-tertiary-container: var(--kc-tertiary-container);
+  --color-on-tertiary-container: var(--kc-on-tertiary-container);
+  --color-tertiary-fixed: var(--kc-tertiary-fixed);
+  --color-tertiary-fixed-dim: var(--kc-tertiary-fixed-dim);
+  --color-on-tertiary-fixed: var(--kc-on-tertiary-fixed);
+  --color-on-tertiary-fixed-variant: var(--kc-on-tertiary-fixed-variant);
+
+  --color-error: var(--kc-error);
+  --color-on-error: var(--kc-on-error);
+  --color-error-container: var(--kc-error-container);
+  --color-on-error-container: var(--kc-on-error-container);
+
+  /* Status accents */
+  --color-status-success-bg: var(--kc-status-success-bg);
+  --color-status-success-text: var(--kc-status-success-text);
+  --color-status-warning-bg: var(--kc-status-warning-bg);
+  --color-status-warning-text: var(--kc-status-warning-text);
+  --color-status-info-bg: var(--kc-status-info-bg);
+  --color-status-info-text: var(--kc-status-info-text);
+  --color-status-danger-bg: var(--kc-status-danger-bg);
+  --color-status-danger-text: var(--kc-status-danger-text);
+  --color-status-neutral-bg: var(--color-surface-variant);
+  --color-status-neutral-text: var(--color-on-surface-variant);
+
+  /* Radius */
+  --radius: 0.375rem;
+  --radius-lg: 0.625rem;
+  --radius-xl: 0.875rem;
+  --radius-full: 9999px;
+
+  /* Elevation */
+  --shadow-card: var(--kc-shadow-card);
+  --shadow-glow: var(--kc-shadow-glow);
+
+  /* Spacing */
+  --spacing-base: 4px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-sidebar-width: 240px;
+  --spacing-sidebar-collapsed: 72px;
+  --spacing-container-max: 1440px;
+
+  /* Font families */
+  --font-h1: Poppins, sans-serif;
+  --font-h1-mobile: Poppins, sans-serif;
+  --font-h2: Poppins, sans-serif;
+  --font-body-md: Poppins, sans-serif;
+  --font-body-sm: Poppins, sans-serif;
+  --font-label-mono: "IBM Plex Mono", monospace;
+  --font-data-mono: "IBM Plex Mono", monospace;
+
+  /* Font sizes (size + line-height + letter-spacing + weight) */
+  --text-h1: 24px;
+  --text-h1--line-height: 32px;
+  --text-h1--letter-spacing: -0.02em;
+  --text-h1--font-weight: 600;
+
+  --text-h1-mobile: 20px;
+  --text-h1-mobile--line-height: 28px;
+  --text-h1-mobile--font-weight: 600;
+
+  --text-h2: 18px;
+  --text-h2--line-height: 24px;
+  --text-h2--letter-spacing: -0.01em;
+  --text-h2--font-weight: 600;
+
+  --text-body-md: 14px;
+  --text-body-md--line-height: 20px;
+  --text-body-md--font-weight: 400;
+
+  --text-body-sm: 13px;
+  --text-body-sm--line-height: 18px;
+  --text-body-sm--font-weight: 400;
+
+  --text-label-mono: 11px;
+  --text-label-mono--line-height: 12px;
+  --text-label-mono--letter-spacing: 0.05em;
+  --text-label-mono--font-weight: 600;
+
+  --text-data-mono: 13px;
+  --text-data-mono--line-height: 16px;
+  --text-data-mono--font-weight: 400;
+}
+
+/* Kinetic Enterprise — Light (default) */
+:root {
+  --kc-surface: #ffffff;
+  --kc-surface-dim: #e1e3e7;
+  --kc-surface-bright: #ffffff;
+  --kc-surface-container-lowest: #ffffff;
+  --kc-surface-container-low: #f5f6f8;
+  --kc-surface-container: #eef0f3;
+  --kc-surface-container-high: #e7e9ed;
+  --kc-surface-container-highest: #dfe2e7;
+  --kc-surface-variant: #e2e4e9;
+  --kc-on-surface: #1b1b1c;
+  --kc-on-surface-variant: #45474c;
+  --kc-inverse-surface: #2b2d31;
+  --kc-inverse-on-surface: #f4f5f6;
+  --kc-outline: #75777c;
+  --kc-outline-variant: #dfe1e6;
+  --kc-surface-tint: #575f6d;
+  --kc-background: #f1f2f4;
+  --kc-on-background: #1b1b1c;
+
+  --kc-primary: #060e1a;
+  --kc-primary-hover: #1c2430;
+  --kc-on-primary: #ffffff;
+  --kc-primary-container: #1c2430;
+  --kc-on-primary-container: #838b9a;
+  --kc-inverse-primary: #bfc7d7;
+  --kc-primary-fixed: #dbe3f3;
+  --kc-primary-fixed-dim: #bfc7d7;
+  --kc-on-primary-fixed: #141c28;
+  --kc-on-primary-fixed-variant: #3f4754;
+
+  --kc-secondary: #585f6c;
+  --kc-on-secondary: #ffffff;
+  --kc-secondary-container: #dce2f3;
+  --kc-on-secondary-container: #5e6572;
+  --kc-secondary-fixed: #dce2f3;
+  --kc-secondary-fixed-dim: #c0c7d7;
+  --kc-on-secondary-fixed: #151c27;
+  --kc-on-secondary-fixed-variant: #404754;
+
+  --kc-tertiary: #160c01;
+  --kc-on-tertiary: #ffffff;
+  --kc-tertiary-container: #2e2110;
+  --kc-on-tertiary-container: #9b8770;
+  --kc-tertiary-fixed: #f7dfc4;
+  --kc-tertiary-fixed-dim: #dac3a9;
+  --kc-on-tertiary-fixed: #251909;
+  --kc-on-tertiary-fixed-variant: #544431;
+
+  --kc-error: #ba1a1a;
+  --kc-on-error: #ffffff;
+  --kc-error-container: #ffdad6;
+  --kc-on-error-container: #93000a;
+
+  --kc-status-success-bg: rgba(16, 185, 129, 0.12);
+  --kc-status-success-text: #0d9268;
+  --kc-status-warning-bg: rgba(245, 158, 11, 0.14);
+  --kc-status-warning-text: #b45309;
+  --kc-status-info-bg: rgba(6, 14, 26, 0.08);
+  --kc-status-info-text: #3f4754;
+  --kc-status-danger-bg: rgba(186, 26, 26, 0.1);
+  --kc-status-danger-text: #ba1a1a;
+
+  --kc-shadow-card: 0 1px 2px rgba(16, 24, 40, 0.04), 0 2px 8px -2px rgba(16, 24, 40, 0.06);
+  --kc-shadow-glow: 0 0 0 1px rgba(6, 14, 26, 0.12), 0 10px 30px -10px rgba(6, 14, 26, 0.15);
+}
+
+/* Kinetic Enterprise — Dark Cockpit */
+.dark {
+  --kc-surface: #131a2a;
+  --kc-surface-dim: #0a0e18;
+  --kc-surface-bright: #1b2438;
+  --kc-surface-container-lowest: #0d1220;
+  --kc-surface-container-low: #182034;
+  --kc-surface-container: #1c2539;
+  --kc-surface-container-high: #222c44;
+  --kc-surface-container-highest: #29344f;
+  --kc-surface-variant: #29344f;
+  --kc-on-surface: #e8ebf2;
+  --kc-on-surface-variant: #97a1b8;
+  --kc-inverse-surface: #e8ebf2;
+  --kc-inverse-on-surface: #131a2a;
+  --kc-outline: #5c6885;
+  --kc-outline-variant: #29324a;
+  --kc-surface-tint: #6366f1;
+  --kc-background: #0a0e18;
+  --kc-on-background: #e8ebf2;
+
+  --kc-primary: #6366f1;
+  --kc-primary-hover: #e8ebf2;
+  --kc-on-primary: #ffffff;
+  --kc-primary-container: #141b2c;
+  --kc-on-primary-container: #97a1b8;
+  --kc-inverse-primary: #4348d8;
+  --kc-primary-fixed: #c7d2fe;
+  --kc-primary-fixed-dim: #818cf8;
+  --kc-on-primary-fixed: #0a0e18;
+  --kc-on-primary-fixed-variant: #4b53c9;
+
+  --kc-secondary: #22d3ee;
+  --kc-on-secondary: #04222b;
+  --kc-secondary-container: #0e2a33;
+  --kc-on-secondary-container: #7dd3e8;
+  --kc-secondary-fixed: #0e2a33;
+  --kc-secondary-fixed-dim: #22d3ee;
+  --kc-on-secondary-fixed: #04222b;
+  --kc-on-secondary-fixed-variant: #3fb6cf;
+
+  --kc-tertiary: #f5a97f;
+  --kc-on-tertiary: #3a1c07;
+  --kc-tertiary-container: #3a2410;
+  --kc-on-tertiary-container: #f7c7a3;
+  --kc-tertiary-fixed: #f7dfc4;
+  --kc-tertiary-fixed-dim: #dac3a9;
+  --kc-on-tertiary-fixed: #251909;
+  --kc-on-tertiary-fixed-variant: #544431;
+
+  --kc-error: #fb7185;
+  --kc-on-error: #4c0519;
+  --kc-error-container: #4c0519;
+  --kc-on-error-container: #fecdd3;
+
+  --kc-status-success-bg: rgba(16, 185, 129, 0.14);
+  --kc-status-success-text: #34d399;
+  --kc-status-warning-bg: rgba(245, 158, 11, 0.14);
+  --kc-status-warning-text: #fbbf24;
+  --kc-status-info-bg: rgba(99, 102, 241, 0.16);
+  --kc-status-info-text: #a5b4fc;
+  --kc-status-danger-bg: rgba(244, 63, 94, 0.14);
+  --kc-status-danger-text: #fb7185;
+
+  --kc-shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 28px -14px rgba(0, 0, 0, 0.7);
+  --kc-shadow-glow: 0 0 0 1px rgba(99, 102, 241, 0.35), 0 10px 30px -10px rgba(99, 102, 241, 0.35);
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-background font-body-md text-body-md antialiased;
+  }
+}
+
+@layer utilities {
+  .material-symbols-outlined {
+    font-family: "Material Symbols Outlined";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  }
+
+  .hairline-border {
+    border: 1px solid var(--color-outline-variant);
+  }
+
+  .ledger-tag {
+    padding: 4px 8px;
+    border-radius: 2px;
+  }
+}

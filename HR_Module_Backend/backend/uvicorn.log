@@ -1,0 +1,258 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\Newuser\\Desktop\\HR_Module\\backend']
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [7068] using WatchFiles
+INFO:     Started server process [14100]
+INFO:     Waiting for application startup.
+2026-07-29 16:51:11,462 INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-29 16:51:11,462 INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-29 16:51:11,463 INFO [apscheduler.scheduler] Added job "_run_poll_job" to job store "default"
+2026-07-29 16:51:11,464 INFO [apscheduler.scheduler] Added job "_run_announcement_notification_job" to job store "default"
+2026-07-29 16:51:11,464 INFO [apscheduler.scheduler] Scheduler started
+2026-07-29 16:51:11,467 INFO [app.core.scheduler] Gmail resume polling scheduled every 5 minute(s).
+2026-07-29 16:51:11,467 INFO [app.core.scheduler] Announcement notification sweep scheduled every 5 minute(s).
+INFO:     Application startup complete.
+2026-07-29 16:51:11,471 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 16:51:11 PKT)" (scheduled at 2026-07-29 16:51:11.460673+05:00)
+2026-07-29 16:51:11,471 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 16:51:11 PKT)" (scheduled at 2026-07-29 16:51:11.462338+05:00)
+2026-07-29 16:51:11,476 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 16:56:11 PKT)" executed successfully
+2026-07-29 16:51:13,336 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 16:56:11 PKT)" executed successfully
+INFO:     127.0.0.1:52706 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60967 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60967 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:60871 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51520 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:63330 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:53051 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50342 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:59211 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:55126 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:62475 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:62475 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:62475 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:58555 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:58555 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:64120 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:64120 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:64120 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+2026-07-29 16:56:11,474 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:01:11 PKT)" (scheduled at 2026-07-29 16:56:11.460673+05:00)
+2026-07-29 16:56:11,475 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:01:11 PKT)" (scheduled at 2026-07-29 16:56:11.462338+05:00)
+2026-07-29 16:56:11,486 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:01:11 PKT)" executed successfully
+2026-07-29 16:56:14,108 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:01:11 PKT)" executed successfully
+INFO:     127.0.0.1:56660 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56660 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56660 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56660 - "OPTIONS /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60594 - "OPTIONS /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60594 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56660 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60594 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56660 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62540 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62540 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62540 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62540 - "GET /resumes/ HTTP/1.1" 200 OK
+2026-07-29 17:01:11,474 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:06:11 PKT)" (scheduled at 2026-07-29 17:01:11.460673+05:00)
+2026-07-29 17:01:11,474 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:06:11 PKT)" (scheduled at 2026-07-29 17:01:11.462338+05:00)
+2026-07-29 17:01:11,477 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:06:11 PKT)" executed successfully
+2026-07-29 17:01:14,418 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:06:11 PKT)" executed successfully
+INFO:     127.0.0.1:57306 - "OPTIONS /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55723 - "OPTIONS /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51543 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57306 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51543 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57306 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57306 - "OPTIONS /shortlist/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51543 - "OPTIONS /shortlist/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57306 - "GET /shortlist/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57306 - "GET /shortlist/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57306 - "OPTIONS /resumes/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57306 - "GET /resumes/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57306 - "OPTIONS /resumes/2/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51543 - "OPTIONS /resumes/2/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51543 - "GET /resumes/2/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:51543 - "GET /resumes/2/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:59123 - "GET /shortlist/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59123 - "GET /shortlist/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59123 - "GET /resumes/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59123 - "GET /resumes/2/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:59123 - "GET /resumes/2/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:63547 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53348 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63547 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53348 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53348 - "OPTIONS /employees/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53348 - "GET /employees/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53348 - "GET /employees/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53348 - "OPTIONS /employees/4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63990 - "OPTIONS /employees/4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53348 - "GET /employees/4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53348 - "GET /employees/4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58112 - "GET /employees/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58112 - "GET /employees/ HTTP/1.1" 200 OK
+2026-07-29 17:06:11,475 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:11:11 PKT)" (scheduled at 2026-07-29 17:06:11.460673+05:00)
+2026-07-29 17:06:11,475 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:11:11 PKT)" (scheduled at 2026-07-29 17:06:11.462338+05:00)
+2026-07-29 17:06:11,477 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:11:11 PKT)" executed successfully
+2026-07-29 17:06:12,577 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:11:11 PKT)" executed successfully
+INFO:     127.0.0.1:57660 - "OPTIONS /attendance/dashboard?date=2026-07-29 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51097 - "OPTIONS /working-hours/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51097 - "GET /working-hours/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57660 - "GET /attendance/dashboard?date=2026-07-29 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57660 - "GET /attendance/dashboard?date=2026-07-29 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51097 - "GET /working-hours/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "OPTIONS /announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "OPTIONS /announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "GET /announcements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61416 - "GET /announcements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:49753 - "OPTIONS /announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "GET /announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "GET /announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "OPTIONS /roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "OPTIONS /roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "GET /roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "GET /roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "GET /announcements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:49753 - "GET /announcements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61416 - "GET /announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "GET /announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "OPTIONS /announcements/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49753 - "OPTIONS /announcements/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "GET /announcements/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "GET /announcements/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "GET /announcements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61416 - "GET /announcements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61416 - "GET /announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61416 - "GET /announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63649 - "GET /announcements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:63649 - "GET /announcements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:64643 - "GET /announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64643 - "GET /announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64643 - "GET /roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64643 - "GET /roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64643 - "OPTIONS /roles/permission-options HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63649 - "OPTIONS /roles/permission-options HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64643 - "GET /roles/permission-options HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64643 - "GET /roles/permission-options HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65398 - "GET /roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65398 - "GET /roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65398 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65398 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65398 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65398 - "GET /resumes/ HTTP/1.1" 200 OK
+2026-07-29 17:11:11,463 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:16:11 PKT)" (scheduled at 2026-07-29 17:11:11.460673+05:00)
+2026-07-29 17:11:11,463 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:16:11 PKT)" (scheduled at 2026-07-29 17:11:11.462338+05:00)
+2026-07-29 17:11:11,464 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:16:11 PKT)" executed successfully
+2026-07-29 17:11:12,481 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:16:11 PKT)" executed successfully
+INFO:     127.0.0.1:49618 - "GET /roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49618 - "GET /roles/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60246 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60246 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60246 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60246 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60246 - "OPTIONS /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61309 - "OPTIONS /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60246 - "GET /resumes/ HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:61309 - "GET /job-postings/ HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:60246 - "GET /resumes/ HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:61309 - "GET /job-postings/ HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:61309 - "OPTIONS /attendance/today HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60246 - "OPTIONS /attendance/today HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61309 - "GET /attendance/today HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61309 - "GET /attendance/today HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61309 - "OPTIONS /employee/announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60246 - "OPTIONS /employee/announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61309 - "GET /employee/announcements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:61309 - "GET /employee/announcements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60246 - "OPTIONS /employee/announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60246 - "GET /employee/announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60246 - "GET /employee/announcements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49293 - "GET /attendance/today HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49293 - "GET /attendance/today HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60510 - "GET /resumes/ HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:49293 - "GET /job-postings/ HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:49293 - "GET /job-postings/ HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:60510 - "GET /resumes/ HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:52927 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52927 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49306 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52927 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49306 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52927 - "GET /job-postings/ HTTP/1.1" 200 OK
+2026-07-29 17:16:11,477 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:21:11 PKT)" (scheduled at 2026-07-29 17:16:11.460673+05:00)
+2026-07-29 17:16:11,477 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:21:11 PKT)" (scheduled at 2026-07-29 17:16:11.462338+05:00)
+2026-07-29 17:16:11,478 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:21:11 PKT)" executed successfully
+2026-07-29 17:16:12,482 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:21:11 PKT)" executed successfully
+2026-07-29 17:21:11,462 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:26:11 PKT)" (scheduled at 2026-07-29 17:21:11.460673+05:00)
+2026-07-29 17:21:11,463 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:26:11 PKT)" (scheduled at 2026-07-29 17:21:11.462338+05:00)
+2026-07-29 17:21:11,468 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:26:11 PKT)" executed successfully
+2026-07-29 17:21:13,319 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:26:11 PKT)" executed successfully
+2026-07-29 17:26:11,468 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:31:11 PKT)" (scheduled at 2026-07-29 17:26:11.460673+05:00)
+2026-07-29 17:26:11,468 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:31:11 PKT)" (scheduled at 2026-07-29 17:26:11.462338+05:00)
+2026-07-29 17:26:11,469 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:31:11 PKT)" executed successfully
+2026-07-29 17:26:12,333 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:31:11 PKT)" executed successfully
+2026-07-29 17:31:11,477 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:36:11 PKT)" (scheduled at 2026-07-29 17:31:11.460673+05:00)
+2026-07-29 17:31:11,477 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:36:11 PKT)" (scheduled at 2026-07-29 17:31:11.462338+05:00)
+2026-07-29 17:31:11,479 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:36:11 PKT)" executed successfully
+2026-07-29 17:31:12,726 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:36:11 PKT)" executed successfully
+2026-07-29 17:36:11,472 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:41:11 PKT)" (scheduled at 2026-07-29 17:36:11.460673+05:00)
+2026-07-29 17:36:11,472 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:41:11 PKT)" (scheduled at 2026-07-29 17:36:11.462338+05:00)
+2026-07-29 17:36:11,482 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:41:11 PKT)" executed successfully
+2026-07-29 17:36:13,061 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:41:11 PKT)" executed successfully
+2026-07-29 17:41:11,465 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:46:11 PKT)" (scheduled at 2026-07-29 17:41:11.460673+05:00)
+2026-07-29 17:41:11,465 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:46:11 PKT)" (scheduled at 2026-07-29 17:41:11.462338+05:00)
+2026-07-29 17:41:11,467 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:46:11 PKT)" executed successfully
+2026-07-29 17:41:12,526 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:46:11 PKT)" executed successfully
+2026-07-29 17:46:11,476 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:51:11 PKT)" (scheduled at 2026-07-29 17:46:11.460673+05:00)
+2026-07-29 17:46:11,476 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:51:11 PKT)" (scheduled at 2026-07-29 17:46:11.462338+05:00)
+2026-07-29 17:46:11,478 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:51:11 PKT)" executed successfully
+2026-07-29 17:46:12,761 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 17:51:11 PKT)" executed successfully
+INFO:     127.0.0.1:58482 - "OPTIONS /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "OPTIONS /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58482 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60498 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58482 - "GET /resumes/ HTTP/1.1" 200 OK
+2026-07-29 18:32:40,297 WARNING [apscheduler.executors.default] Run time of job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:36:11 PKT)" was missed by 0:01:28.836690
+2026-07-29 18:32:40,297 WARNING [apscheduler.executors.default] Run time of job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:36:11 PKT)" was missed by 0:01:28.835239
+2026-07-29 18:36:11,466 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:41:11 PKT)" (scheduled at 2026-07-29 18:36:11.460673+05:00)
+2026-07-29 18:36:11,466 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:41:11 PKT)" (scheduled at 2026-07-29 18:36:11.462338+05:00)
+2026-07-29 18:36:11,468 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:41:11 PKT)" executed successfully
+2026-07-29 18:36:13,701 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:41:11 PKT)" executed successfully
+2026-07-29 18:41:11,474 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:46:11 PKT)" (scheduled at 2026-07-29 18:41:11.460673+05:00)
+2026-07-29 18:41:11,474 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:46:11 PKT)" (scheduled at 2026-07-29 18:41:11.462338+05:00)
+2026-07-29 18:41:11,476 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:46:11 PKT)" executed successfully
+2026-07-29 18:41:12,477 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:46:11 PKT)" executed successfully
+2026-07-29 18:46:11,464 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:51:11 PKT)" (scheduled at 2026-07-29 18:46:11.460673+05:00)
+2026-07-29 18:46:11,465 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:51:11 PKT)" (scheduled at 2026-07-29 18:46:11.462338+05:00)
+2026-07-29 18:46:11,467 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:51:11 PKT)" executed successfully
+2026-07-29 18:46:12,624 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:51:11 PKT)" executed successfully
+2026-07-29 18:51:11,475 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:56:11 PKT)" (scheduled at 2026-07-29 18:51:11.460673+05:00)
+2026-07-29 18:51:11,475 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:56:11 PKT)" (scheduled at 2026-07-29 18:51:11.462338+05:00)
+2026-07-29 18:51:11,486 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:56:11 PKT)" executed successfully
+2026-07-29 18:51:13,352 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 18:56:11 PKT)" executed successfully
+2026-07-29 18:56:11,474 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:01:11 PKT)" (scheduled at 2026-07-29 18:56:11.460673+05:00)
+2026-07-29 18:56:11,475 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:01:11 PKT)" (scheduled at 2026-07-29 18:56:11.462338+05:00)
+2026-07-29 18:56:11,477 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:01:11 PKT)" executed successfully
+2026-07-29 18:56:12,636 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:01:11 PKT)" executed successfully
+2026-07-29 19:01:11,467 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:06:11 PKT)" (scheduled at 2026-07-29 19:01:11.460673+05:00)
+2026-07-29 19:01:11,467 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:06:11 PKT)" (scheduled at 2026-07-29 19:01:11.462338+05:00)
+2026-07-29 19:01:11,469 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:06:11 PKT)" executed successfully
+2026-07-29 19:01:12,827 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:06:11 PKT)" executed successfully
+2026-07-29 19:06:11,476 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:11:11 PKT)" (scheduled at 2026-07-29 19:06:11.460673+05:00)
+2026-07-29 19:06:11,476 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:11:11 PKT)" (scheduled at 2026-07-29 19:06:11.462338+05:00)
+2026-07-29 19:06:11,485 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:11:11 PKT)" executed successfully
+2026-07-29 19:06:12,733 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:11:11 PKT)" executed successfully
+2026-07-29 19:11:11,469 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:16:11 PKT)" (scheduled at 2026-07-29 19:11:11.460673+05:00)
+2026-07-29 19:11:11,469 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:16:11 PKT)" (scheduled at 2026-07-29 19:11:11.462338+05:00)
+2026-07-29 19:11:20,742 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:16:11 PKT)" executed successfully
+2026-07-29 19:11:21,918 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:16:11 PKT)" executed successfully
+2026-07-29 19:16:11,475 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:21:11 PKT)" (scheduled at 2026-07-29 19:16:11.460673+05:00)
+2026-07-29 19:16:11,475 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:21:11 PKT)" (scheduled at 2026-07-29 19:16:11.462338+05:00)
+2026-07-29 19:16:11,478 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:21:11 PKT)" executed successfully
+2026-07-29 19:16:15,153 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:21:11 PKT)" executed successfully
+2026-07-29 19:21:11,474 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:26:11 PKT)" (scheduled at 2026-07-29 19:21:11.460673+05:00)
+2026-07-29 19:21:11,475 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:26:11 PKT)" (scheduled at 2026-07-29 19:21:11.462338+05:00)
+2026-07-29 19:21:11,525 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:26:11 PKT)" executed successfully
+2026-07-29 19:21:14,981 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:26:11 PKT)" executed successfully
+2026-07-29 19:26:11,485 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:31:11 PKT)" (scheduled at 2026-07-29 19:26:11.460673+05:00)
+2026-07-29 19:26:11,486 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:31:11 PKT)" (scheduled at 2026-07-29 19:26:11.462338+05:00)
+2026-07-29 19:26:11,583 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:31:11 PKT)" executed successfully
+2026-07-29 19:26:16,857 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-07-29 19:31:11 PKT)" executed successfully

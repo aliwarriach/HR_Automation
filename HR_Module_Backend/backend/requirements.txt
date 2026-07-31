@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic_settings
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+email-validator
+bcrypt==4.0.1
+apscheduler
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+httpx

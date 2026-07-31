@@ -1,0 +1,1 @@
+export const INTERVIEW_TIMEZONE_LABEL = import.meta.env.VITE_INTERVIEW_TIMEZONE || "UTC";

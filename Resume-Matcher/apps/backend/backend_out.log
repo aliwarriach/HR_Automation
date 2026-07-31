@@ -1,0 +1,12 @@
+INFO:     127.0.0.1:53375 - "GET /api/v1/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54341 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54341 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50577 - "GET /api/v1/resume-detail/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50580 - "GET /api/v1/resume-detail/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65241 - "GET /api/v1/resume-detail/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65243 - "GET /api/v1/resume-detail/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65248 - "GET /api/v1/resume-detail/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65250 - "GET /api/v1/resume-detail/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51829 - "GET /api/v1/resume-detail/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58707 - "GET /api/v1/resume-detail/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55847 - "GET /api/v1/resume-detail/2 HTTP/1.1" 200 OK
