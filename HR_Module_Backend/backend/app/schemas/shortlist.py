@@ -3,13 +3,15 @@ from datetime import date, datetime, time
 
 from pydantic import BaseModel
 
+from app.models.shortlist import ShortlistStatus
+
 
 class ShortlistCreate(BaseModel):
     resume_id: int
 
 
 class ShortlistStatusUpdate(BaseModel):
-    status: str
+    status: ShortlistStatus
 
 
 class ScheduleInterviewRequest(BaseModel):

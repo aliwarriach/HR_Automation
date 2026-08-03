@@ -19,7 +19,7 @@ from app.integrations.gmail.client import GmailClientError
 from app.integrations.google_calendar import client as calendar_client
 from app.integrations.google_calendar.client import CalendarClientError
 from app.models.resume import Resume
-from app.models.shortlist import Shortlist
+from app.models.shortlist import Shortlist, ShortlistStatus
 
 logger = logging.getLogger(__name__)
 
@@ -89,7 +89,7 @@ def schedule_interview(
     shortlist.interview_time = interview_start.time()
     shortlist.google_event_id = event.get("id")
     shortlist.google_event_link = event_link
-    shortlist.status = "interview"
+    shortlist.status = ShortlistStatus.interview
     db.commit()
     db.refresh(shortlist)
     return shortlist

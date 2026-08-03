@@ -30,6 +30,16 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
     return pwd_context.verify(plain_password, hashed_password)
 
 
+def is_strong_password(password: str) -> bool:
+    """Minimum bar for user-chosen passwords: same length floor as
+    generate_password's CSPRNG output, plus a letter and a digit."""
+    return (
+        len(password) >= _PASSWORD_LENGTH
+        and any(c.isalpha() for c in password)
+        and any(c.isdigit() for c in password)
+    )
+
+
 def generate_password(length: int = _PASSWORD_LENGTH) -> str:
     """Generate a random password using a CSPRNG, guaranteed to mix letters and digits."""
     required = [secrets.choice(string.ascii_letters), secrets.choice(string.digits)]

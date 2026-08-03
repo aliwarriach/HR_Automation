@@ -141,6 +141,11 @@ class Experience(BaseModel):
     years: str = ""
     description: list[str] = Field(default_factory=list)
 
+    @field_validator("years", mode="before")
+    @classmethod
+    def _normalize_years(cls, value: Any) -> str:
+        return _coerce_text(value)
+
     @field_validator("description", mode="before")
     @classmethod
     def _normalize_description(cls, value: Any) -> list[str]:
@@ -155,6 +160,11 @@ class Education(BaseModel):
     degree: str = ""
     years: str = ""
     description: str | None = None
+
+    @field_validator("years", mode="before")
+    @classmethod
+    def _normalize_years(cls, value: Any) -> str:
+        return _coerce_text(value)
 
     @field_validator("description", mode="before")
     @classmethod
@@ -172,6 +182,11 @@ class Project(BaseModel):
     github: str | None = None
     website: str | None = None
     description: list[str] = Field(default_factory=list)
+
+    @field_validator("role", "years", mode="before")
+    @classmethod
+    def _normalize_text_fields(cls, value: Any) -> str:
+        return _coerce_text(value)
 
     @field_validator("description", mode="before")
     @classmethod
@@ -221,6 +236,11 @@ class CustomSectionItem(BaseModel):
     location: str | None = None
     years: str = ""
     description: list[str] = Field(default_factory=list)
+
+    @field_validator("years", mode="before")
+    @classmethod
+    def _normalize_years(cls, value: Any) -> str:
+        return _coerce_text(value)
 
     @field_validator("description", mode="before")
     @classmethod

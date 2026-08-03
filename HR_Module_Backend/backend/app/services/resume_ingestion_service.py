@@ -29,7 +29,7 @@ def _slugify(text: str) -> str:
     return slug.strip("-")
 
 
-def _match_role(subject: str | None, db: Session) -> tuple[str | None, str | None]:
+def _match_role(subject: str | None, db: Session) -> tuple[str | None, str | None, int | None]:
     """Match an email subject against known job posting roles.
 
     Subject is slugified the same way job posting titles are, then each
@@ -37,71 +37,65 @@ def _match_role(subject: str | None, db: Session) -> tuple[str | None, str | Non
     like "Application for Senior Backend Engineer" or punctuation/case
     variants still match. Ties broken by picking the longest role match.
 
-    Returns (role, job_description) — job_description is the matched
-    posting's `requirements` text, kept alongside role for ATS scoring.
+    Returns (role, job_description, job_posting_id) — job_description is the
+    matched posting's `requirements` text (kept for display), job_posting_id
+    is what ATS scoring actually needs (see run_ats_scoring).
     """
     if not subject:
-        return None, None
+        return None, None, None
 
     subject_slug = _slugify(subject)
     if not subject_slug:
-        return None, None
+        return None, None, None
 
-    postings = db.query(JobPosting.title, JobPosting.requirements).distinct()
+    postings = db.query(JobPosting.id, JobPosting.title, JobPosting.requirements).distinct()
 
     best_role = None
     best_description = None
+    best_id = None
     best_len = 0
-    for title, requirements in postings:
+    for posting_id, title, requirements in postings:
         role = _slugify(title)
         if not role:
             continue
         if role in subject_slug and len(role) > best_len:
             best_role = role
             best_description = requirements
+            best_id = posting_id
             best_len = len(role)
 
-    return best_role, best_description
+    return best_role, best_description, best_id
 
 
 def run_ats_scoring(db: Session, resume: Resume) -> None:
-    """Upload a resume+JD to the ATS microservice and cache the resulting score.
+    """Score a resume against its matched job posting via the ATS
+    microservice's /candidate-matches endpoint. That endpoint reads the
+    resume file and job requirements directly out of our shared SQLite file
+    (see EXTERNAL_DB_PATH in the ATS service's config) keyed off our own
+    resumes.id/job_postings.id — no upload step needed.
 
     Best-effort: any failure is logged and leaves ats_status="failed" rather
     than raising, so scoring problems never block resume ingestion. Safe to
-    call again later (e.g. via a retry endpoint) since /score is idempotent;
-    upload steps are only redone here, matching current row state.
+    call again later (e.g. via a retry endpoint) since a match for the same
+    (resume_id, job_posting_id) pair is re-scored in place, not duplicated.
     """
-    if not resume.job_description:
-        return  # nothing to score against yet; stays "pending"
+    if not resume.job_posting_id:
+        return  # no matched job posting to score against yet; stays "pending"
 
     try:
-        ats_resume_id, processing_status = ats_client.upload_resume(resume.file_path, resume.file_name)
-    except ats_client.AtsClientError:
-        logger.exception("ATS resume upload failed for resume %s", resume.id)
-        resume.ats_status = "failed"
-        db.commit()
-        return
-
-    resume.ats_resume_id = ats_resume_id
-    if processing_status != "ready":
-        resume.ats_status = "failed"
-        db.commit()
-        logger.error("ATS resume %s not ready for resume %s: status=%s", ats_resume_id, resume.id, processing_status)
-        return
-
-    try:
-        job_id = ats_client.upload_job_description(resume.job_description)
-        ats_score = ats_client.score_resume(ats_resume_id, job_id)
+        match = ats_client.create_candidate_match(resume.id, resume.job_posting_id)
     except ats_client.AtsClientError:
         logger.exception("ATS scoring failed for resume %s", resume.id)
         resume.ats_status = "failed"
+        # Clear any stale score from a prior successful attempt - a failed
+        # re-score must not leave "failed" paired with an old passing score.
+        resume.ats_score = None
+        resume.ats_missing_keywords = None
         db.commit()
         return
 
-    resume.ats_job_id = job_id
-    resume.ats_score = ats_score.get("overall_score")
-    resume.ats_missing_keywords = json.dumps(ats_score.get("missing_keywords") or [])
+    resume.ats_score = match.get("overall_score")
+    resume.ats_missing_keywords = json.dumps(match.get("missing_keywords") or [])
     resume.ats_status = "scored"
     db.commit()
 
@@ -123,7 +117,7 @@ def _process_message(db: Session, service, message_id: str) -> list[Resume]:
     sender_email = gmail_client.extract_sender_email(from_header)
     subject = gmail_client.get_header(payload, "Subject")
     received_at = datetime.fromtimestamp(int(message["internalDate"]) / 1000, tz=timezone.utc)
-    role, job_description = _match_role(subject, db)
+    role, job_description, job_posting_id = _match_role(subject, db)
 
     saved: list[Resume] = []
     for attachment in attachments:
@@ -148,6 +142,7 @@ def _process_message(db: Session, service, message_id: str) -> list[Resume]:
             subject=subject,
             role=role,
             job_description=job_description,
+            job_posting_id=job_posting_id,
             file_name=file_name,
             file_path=file_path,
             received_at=received_at,

@@ -1,6 +1,7 @@
 # app/schemas/user.py
-from pydantic import BaseModel, EmailStr
+from pydantic import BaseModel, EmailStr, field_validator
 
+from app.core.security import is_strong_password
 from app.models.user import UserRole
 
 
@@ -9,6 +10,13 @@ class UserRegister(BaseModel):
     email: EmailStr
     password: str
     role: UserRole = UserRole.employee
+
+    @field_validator("password")
+    @classmethod
+    def check_password_strength(cls, value: str) -> str:
+        if not is_strong_password(value):
+            raise ValueError("password must be at least 8 characters and include a letter and a digit")
+        return value
 
 
 class UserLogin(BaseModel):

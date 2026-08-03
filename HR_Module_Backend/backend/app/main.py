@@ -81,6 +81,12 @@ _add_missing_columns(
         "notified_at": "DATETIME",
     },
 )
+_add_missing_columns(
+    "resumes",
+    {
+        "job_posting_id": "INTEGER",
+    },
+)
 
 
 _DEFAULT_ROLE_PERMISSIONS: dict[str, dict[str, list[str]]] = {
