@@ -1,0 +1,937 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\Newuser\\Desktop\\HR_Module\\HR_Module_Backend\\backend']
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [12408] using WatchFiles
+2026-08-04 18:09:25,401 INFO [watchfiles.main] 1 change detected
+INFO:     Started server process [8808]
+INFO:     Waiting for application startup.
+2026-08-04 18:09:25,700 INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-08-04 18:09:25,700 INFO [apscheduler.scheduler] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-08-04 18:09:25,702 INFO [apscheduler.scheduler] Added job "_run_poll_job" to job store "default"
+2026-08-04 18:09:25,702 INFO [apscheduler.scheduler] Added job "_run_announcement_notification_job" to job store "default"
+2026-08-04 18:09:25,702 INFO [apscheduler.scheduler] Scheduler started
+2026-08-04 18:09:25,703 INFO [app.core.scheduler] Gmail resume polling scheduled every 5 minute(s).
+2026-08-04 18:09:25,703 INFO [app.core.scheduler] Announcement notification sweep scheduled every 5 minute(s).
+INFO:     Application startup complete.
+2026-08-04 18:09:25,704 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:09:25 PKT)" (scheduled at 2026-08-04 18:09:25.698340+05:00)
+2026-08-04 18:09:25,705 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:09:25 PKT)" (scheduled at 2026-08-04 18:09:25.700139+05:00)
+2026-08-04 18:09:25,710 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:14:25 PKT)" executed successfully
+2026-08-04 18:09:25,760 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:26,162 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:27,022 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:28,193 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:14:25 PKT)" executed successfully
+2026-08-04 18:09:33,513 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:33,866 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:34,382 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:34,990 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:35,402 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:35,766 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:36,182 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:36,695 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:37,254 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:37,707 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:38,065 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:38,478 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:38,930 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:39,345 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:39,755 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:45,611 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:46,014 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:46,427 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:46,886 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:47,304 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:47,760 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:48,111 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:48,571 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:49,074 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:49,533 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:49,994 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:50,348 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:53,632 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:55,143 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:55,507 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:55,912 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:56,476 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:56,940 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:57,396 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:57,851 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:58,261 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:58,766 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:59,123 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:59,477 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:09:59,878 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:00,291 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:06,477 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:06,842 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:07,353 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:07,765 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:08,171 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:08,625 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:08,986 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:09,402 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:09,867 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:10,269 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:10,725 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:11,087 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:15,785 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:16,142 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:16,545 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:16,958 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:17,376 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:17,789 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:18,194 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:18,606 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:19,010 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:19,416 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:19,823 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:20,188 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:20,601 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:21,006 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:21,409 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:21,812 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:22,217 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:22,623 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:23,033 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:23,438 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:23,856 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:24,274 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:24,629 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:25,046 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:25,456 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:25,908 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:26,315 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:26,684 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:27,088 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:27,490 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:27,898 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:28,316 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:28,734 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:29,146 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:29,556 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:29,913 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:30,318 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:30,730 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:31,134 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:31,540 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:31,942 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:32,354 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:32,756 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:33,166 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:33,583 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:33,951 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:34,395 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:34,751 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:35,157 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:63630 - "GET /docs HTTP/1.1" 200 OK
+2026-08-04 18:10:35,565 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:35,967 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:36,372 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:36,787 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:37,195 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:37,602 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:38,004 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:38,665 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:39,081 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:39,536 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:39,948 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:40,451 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:40,917 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:41,369 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:41,979 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:42,384 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:42,850 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:43,258 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:43,719 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:48,971 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:49,334 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:49,749 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:50,414 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:50,765 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:51,181 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:51,636 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:52,040 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:52,493 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:52,949 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:53,406 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:53,860 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:54,323 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:54,827 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:55,230 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:10:55,746 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:06,145 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:06,507 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:07,023 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:07,678 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:08,095 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:08,659 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:09,173 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:09,627 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:10,179 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:10,588 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:10,990 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:11,447 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:17,836 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:18,193 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:18,706 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:19,218 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:20,085 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:20,542 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:21,102 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:21,558 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:21,967 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:22,429 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:22,940 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:23,659 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:24,012 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:24,477 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:24,888 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:25,355 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:31,777 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:32,132 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:32,485 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:32,901 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:33,312 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:33,715 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:34,071 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:34,479 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:34,885 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:35,300 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:35,704 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:36,114 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:36,531 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:36,886 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:37,289 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:37,693 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:38,099 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:38,501 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:38,903 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:39,313 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:39,721 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:40,247 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:40,650 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:41,107 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:41,515 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:41,925 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:42,336 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:42,695 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:43,097 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:43,499 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:43,908 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:44,311 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:44,715 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:45,117 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:45,524 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:45,879 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:46,292 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:46,702 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:47,114 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:47,479 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:47,897 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:48,300 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:48,709 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:49,076 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:49,484 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:49,895 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:50,304 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:50,709 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:51,117 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:51,521 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:51,937 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:52,349 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:52,757 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:53,165 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:53,575 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:53,927 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:54,329 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:54,743 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:55,149 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:55,565 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:55,971 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:56,373 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:56,789 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:57,194 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:57,597 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:58,005 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:58,411 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:58,826 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:59,233 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:11:59,647 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:00,063 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:00,465 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:00,877 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:01,290 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:01,702 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:02,107 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:02,522 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:02,880 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:03,287 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:03,697 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:04,100 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:04,508 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:04,913 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:05,328 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:05,747 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:06,102 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:06,512 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:06,929 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:07,337 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:07,750 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:08,157 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:08,561 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:08,966 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:09,374 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:09,779 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:10,192 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:10,632 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:10,988 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:11,395 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:11,811 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:12,220 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:12,627 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:13,036 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:13,442 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:13,858 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:14,267 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:14,677 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:15,087 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:15,450 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:15,906 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:16,309 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:16,664 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:17,067 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:17,479 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:17,883 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:18,305 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:18,709 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:19,074 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:19,476 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:19,887 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:20,291 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:20,702 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:21,107 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:21,518 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:21,925 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:22,339 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:22,742 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:23,158 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:23,572 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:23,932 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:24,350 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:24,755 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:25,208 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:25,561 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:25,973 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:26,387 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:26,800 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:27,218 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:27,623 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:28,037 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:28,449 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:28,854 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:29,257 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:29,662 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:30,066 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:30,472 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:30,839 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:31,300 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:31,712 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:32,117 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:32,530 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:32,945 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:33,300 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:33,706 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:34,116 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:34,534 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:34,938 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:35,401 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:35,905 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:36,510 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:36,870 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:37,335 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:37,796 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:38,201 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:38,716 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:39,176 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:39,636 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:40,052 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:40,466 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:46,842 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:47,197 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:47,702 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:48,063 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:48,519 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:48,921 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:49,378 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:49,944 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:50,409 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:50,973 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:51,584 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:52,051 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:52,407 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:52,994 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:53,449 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:12:53,854 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:57067 - "OPTIONS /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57067 - "GET /job-postings/ HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:57067 - "GET /job-postings/ HTTP/1.1" 401 Unauthorized
+2026-08-04 18:13:03,307 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:03,712 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:04,121 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:04,593 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:05,354 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:05,966 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:06,327 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:06,888 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:07,498 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:07,855 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:08,258 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:08,725 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:09,229 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:09,687 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:10,095 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:10,503 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:10,908 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:17,098 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:17,452 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:17,907 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:18,319 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:18,730 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:19,191 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:19,601 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:20,110 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:20,623 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:21,200 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:21,609 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:22,021 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:22,475 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:22,939 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:29,919 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:30,322 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:30,836 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:31,240 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:31,653 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:32,066 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:32,778 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:33,287 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:33,790 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:34,301 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:34,767 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:35,219 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:35,671 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:42,390 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:42,802 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:43,214 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:43,618 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:44,031 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:44,436 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:44,900 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:45,353 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:45,813 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:46,477 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:46,886 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:47,402 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:47,864 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:48,281 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:48,696 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:58,054 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:58,456 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:58,972 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:59,481 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:13:59,889 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:00,301 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:00,756 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:01,211 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:01,615 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:02,016 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:02,469 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:02,874 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:08,873 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:09,239 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:09,645 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:10,056 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:10,466 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:10,878 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:11,284 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:11,643 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:12,059 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:12,467 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:12,877 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:13,245 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:13,661 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:14,024 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:14,432 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:14,838 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:15,251 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:15,660 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:16,073 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:16,488 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:16,845 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:17,259 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:17,666 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:18,032 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:18,448 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:18,854 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:19,218 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:53504 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+2026-08-04 18:14:19,624 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:53504 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+2026-08-04 18:14:20,039 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:20,444 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:20,850 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:21,254 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:21,656 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:22,023 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:22,440 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:22,845 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:23,250 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:23,657 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:53504 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53504 - "OPTIONS /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53504 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51405 - "OPTIONS /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53504 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51405 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53504 - "GET /job-postings/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51405 - "GET /resumes/ HTTP/1.1" 200 OK
+2026-08-04 18:14:24,064 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:24,421 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:24,825 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:25,228 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:25,631 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:25,708 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:19:25 PKT)" (scheduled at 2026-08-04 18:14:25.698340+05:00)
+2026-08-04 18:14:25,709 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:19:25 PKT)" (scheduled at 2026-08-04 18:14:25.700139+05:00)
+2026-08-04 18:14:25,712 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:19:25 PKT)" executed successfully
+2026-08-04 18:14:26,048 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:26,450 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:26,850 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:19:25 PKT)" executed successfully
+2026-08-04 18:14:26,855 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:27,257 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:27,666 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:28,069 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:51405 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51405 - "GET /resumes/ HTTP/1.1" 200 OK
+2026-08-04 18:14:28,436 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:28,845 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:29,257 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:29,665 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:51405 - "OPTIONS /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56475 - "OPTIONS /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65201 - "OPTIONS /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52888 - "OPTIONS /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51405 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65201 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51405 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65201 - "GET /shortlist/ HTTP/1.1" 200 OK
+2026-08-04 18:14:30,070 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:65201 - "OPTIONS /resumes/3/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51405 - "OPTIONS /resumes/3/detail HTTP/1.1" 200 OK
+2026-08-04 18:14:30,474 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:30,889 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:31,253 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:31,666 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:32,071 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:32,473 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:32,887 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:33,301 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:33,717 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:34,122 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:34,533 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:65201 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+2026-08-04 18:14:34,949 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:35,356 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:35,767 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:36,183 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:36,587 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:37,001 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:37,404 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:37,816 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:38,220 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:38,635 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:39,037 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:65201 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+2026-08-04 18:14:39,458 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:39,864 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:40,273 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:40,678 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:41,086 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:41,502 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:41,931 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:65201 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65201 - "GET /resumes/ HTTP/1.1" 200 OK
+2026-08-04 18:14:42,286 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:42,702 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:43,107 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:43,518 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:43,929 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:44,337 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:44,755 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:45,110 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:45,514 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:45,938 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:46,294 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:46,703 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:47,107 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:47,517 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:47,929 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:48,335 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:61985 - "GET /resumes/3 HTTP/1.1" 200 OK
+2026-08-04 18:14:48,701 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:56691 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61985 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56691 - "GET /shortlist/ HTTP/1.1" 200 OK
+2026-08-04 18:14:49,106 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:49,525 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:49,928 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:50,330 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:50,739 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:51,148 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:51,563 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:51,929 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:52,331 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:52,746 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:53,148 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:56691 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+2026-08-04 18:14:53,611 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:53,964 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:54,374 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:54,790 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:55,195 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:55,608 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:56,016 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:56,425 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:56,829 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:57,193 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:57,599 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:56691 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+2026-08-04 18:14:58,008 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:58,421 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:58,824 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:59,241 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:14:59,643 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:00,057 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:00,465 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:00,873 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:01,278 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:01,685 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:02,092 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:02,510 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:02,864 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:03,274 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:03,688 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:04,097 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:04,451 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:04,863 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:05,275 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:05,686 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:06,096 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:06,513 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:06,880 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:07,289 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:07,708 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:08,126 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:08,545 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:08,961 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:09,326 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:09,779 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:10,145 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:10,564 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:10,970 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:11,377 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:11,779 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:12,186 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:12,591 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:12,996 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:13,403 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:13,806 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:14,217 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:14,627 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:15,036 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:15,449 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:15,860 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:16,267 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:16,677 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:17,084 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:17,439 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:17,842 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:18,297 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:18,652 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:19,054 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:19,459 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:19,869 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:20,277 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:20,686 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:21,092 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:21,503 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:21,911 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:22,325 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:22,690 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:23,097 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:23,550 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:23,965 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:24,331 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:24,788 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:25,192 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:25,604 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:26,009 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:26,418 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:26,774 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:27,178 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:27,638 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:28,000 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:28,456 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:28,864 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:29,266 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:29,672 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:30,084 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:30,499 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:30,858 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:31,314 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:31,721 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:32,082 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:32,489 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:32,906 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:33,315 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:33,733 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:34,085 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:34,507 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:34,914 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:35,323 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:35,727 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:36,130 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:36,541 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:36,947 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:37,313 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:37,730 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:38,187 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:38,594 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:39,001 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:39,359 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:39,766 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:40,182 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:40,586 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:41,000 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:41,408 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:41,770 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:42,181 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:42,636 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:42,990 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:43,398 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:43,802 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:44,209 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:44,627 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:45,036 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:45,388 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:45,842 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:46,246 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:46,653 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:47,064 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:47,469 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:47,881 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:48,289 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:48,693 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:49,147 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:49,600 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:50,053 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:50,465 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:50,969 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:51,474 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:51,882 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:52,284 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:52,750 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:53,159 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:53,572 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:15:54,040 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:02,910 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:03,264 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:03,721 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:04,129 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:04,534 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:04,996 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:05,450 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:05,863 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:06,369 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:06,928 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:07,335 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:07,787 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:08,197 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:13,196 INFO [watchfiles.main] 5 changes detected
+2026-08-04 18:16:13,609 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:14,062 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:14,676 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:15,031 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:15,489 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:15,891 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:16,345 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:16,860 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:17,324 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:17,834 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:18,248 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:21,812 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:23,175 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:23,535 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:23,942 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:24,509 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:24,875 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:25,286 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:25,700 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:26,166 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:26,574 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:27,033 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:27,440 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:27,950 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:30,732 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:33,054 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:33,410 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:33,821 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:34,380 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:34,905 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:35,358 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:35,764 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:36,223 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:36,629 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:37,035 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:37,493 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:37,904 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:42,844 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:43,196 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:43,613 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:43,970 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:44,378 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:44,792 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:45,202 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:45,604 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:46,023 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:46,437 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:46,842 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:47,249 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:47,616 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:48,082 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:48,484 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:48,899 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:49,265 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:49,681 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:50,185 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:50,903 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:51,467 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:51,875 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:52,285 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:52,740 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:53,201 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:53,666 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:54,123 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:54,630 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:16:55,034 INFO [watchfiles.main] 1 change detected
+2026-08-04 18:17:00,707 INFO [watchfiles.main] 1 change detected
+INFO:     127.0.0.1:51724 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54483 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64513 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54483 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54483 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:54483 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+2026-08-04 18:19:25,706 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:24:25 PKT)" (scheduled at 2026-08-04 18:19:25.698340+05:00)
+2026-08-04 18:19:25,707 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:24:25 PKT)" (scheduled at 2026-08-04 18:19:25.700139+05:00)
+2026-08-04 18:19:25,712 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:24:25 PKT)" executed successfully
+2026-08-04 18:19:26,719 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:24:25 PKT)" executed successfully
+INFO:     127.0.0.1:63383 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63383 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61860 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61860 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65428 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61860 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65428 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65428 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:65428 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+2026-08-04 18:24:25,709 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:29:25 PKT)" (scheduled at 2026-08-04 18:24:25.698340+05:00)
+2026-08-04 18:24:25,709 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:29:25 PKT)" (scheduled at 2026-08-04 18:24:25.700139+05:00)
+2026-08-04 18:24:25,712 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:29:25 PKT)" executed successfully
+2026-08-04 18:24:26,975 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:29:25 PKT)" executed successfully
+INFO:     127.0.0.1:58423 - "OPTIONS /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60581 - "OPTIONS /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58423 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60581 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58423 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60581 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60581 - "OPTIONS /resumes/3/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58423 - "OPTIONS /resumes/3/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58423 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:58423 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+2026-08-04 18:29:25,699 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:34:25 PKT)" (scheduled at 2026-08-04 18:29:25.698340+05:00)
+2026-08-04 18:29:25,713 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:34:25 PKT)" (scheduled at 2026-08-04 18:29:25.700139+05:00)
+2026-08-04 18:29:25,715 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:34:25 PKT)" executed successfully
+2026-08-04 18:29:26,885 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:34:25 PKT)" executed successfully
+INFO:     127.0.0.1:60332 - "OPTIONS /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60332 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60332 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63616 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58776 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63616 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58776 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58776 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:58776 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61254 - "OPTIONS /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52098 - "OPTIONS /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61254 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59510 - "OPTIONS /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61254 - "OPTIONS /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52098 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59510 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61254 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61254 - "OPTIONS /resumes/3/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59510 - "OPTIONS /resumes/3/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59510 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:61254 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+2026-08-04 18:34:25,712 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:39:25 PKT)" (scheduled at 2026-08-04 18:34:25.698340+05:00)
+2026-08-04 18:34:25,713 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:39:25 PKT)" (scheduled at 2026-08-04 18:34:25.700139+05:00)
+2026-08-04 18:34:25,715 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:39:25 PKT)" executed successfully
+2026-08-04 18:34:26,742 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:39:25 PKT)" executed successfully
+2026-08-04 18:39:25,699 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:44:25 PKT)" (scheduled at 2026-08-04 18:39:25.698340+05:00)
+2026-08-04 18:39:25,710 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:44:25 PKT)" (scheduled at 2026-08-04 18:39:25.700139+05:00)
+2026-08-04 18:39:25,717 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:44:25 PKT)" executed successfully
+2026-08-04 18:39:26,776 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:44:25 PKT)" executed successfully
+INFO:     127.0.0.1:56411 - "OPTIONS /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57924 - "OPTIONS /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62645 - "OPTIONS /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "OPTIONS /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56411 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57924 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62645 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "OPTIONS /resumes/3/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62645 - "OPTIONS /resumes/3/detail HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62645 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:56904 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:56904 - "OPTIONS /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "GET /resumes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64628 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52766 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64628 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52766 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52766 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:52766 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+2026-08-04 18:44:25,699 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:49:25 PKT)" (scheduled at 2026-08-04 18:44:25.698340+05:00)
+2026-08-04 18:44:25,708 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:49:25 PKT)" (scheduled at 2026-08-04 18:44:25.700139+05:00)
+2026-08-04 18:44:25,708 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:49:25 PKT)" executed successfully
+2026-08-04 18:44:26,581 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:49:25 PKT)" executed successfully
+INFO:     127.0.0.1:52005 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49955 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52005 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49955 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49955 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:49955 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:56078 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64755 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51950 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64755 - "GET /resumes/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51950 - "GET /shortlist/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51950 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+INFO:     127.0.0.1:51950 - "GET /resumes/3/detail HTTP/1.1" 502 Bad Gateway
+2026-08-04 18:49:25,713 INFO [apscheduler.executors.default] Running job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:54:25 PKT)" (scheduled at 2026-08-04 18:49:25.700139+05:00)
+2026-08-04 18:49:25,713 INFO [apscheduler.executors.default] Running job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:54:25 PKT)" (scheduled at 2026-08-04 18:49:25.698340+05:00)
+2026-08-04 18:49:25,714 INFO [apscheduler.executors.default] Job "_run_announcement_notification_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:54:25 PKT)" executed successfully
+2026-08-04 18:49:26,555 INFO [apscheduler.executors.default] Job "_run_poll_job (trigger: interval[0:05:00], next run at: 2026-08-04 18:54:25 PKT)" executed successfully
